@@ -10,6 +10,7 @@ package com.mycompany.projetoanimal;
         Ave a1 = new Ave();
         Canguru c1 = new Canguru();
         Cachorro ca1 = new Cachorro();
+        GoldFish gf1 = new GoldFish();
         
         System.out.println("### MAMIFERO ###");
         
@@ -36,6 +37,20 @@ package com.mycompany.projetoanimal;
         System.out.println("\n### CANGURU ###");
         c1.locomover();
         
+        System.out.println("\n### Cachorro ###");
+        ca1.setCorPelo("Preto e marrom");
+        ca1.setIdade(3);
+        ca1.setMembros(4);
+        ca1.setPeso(33.7f);
+        System.out.println(ca1.toString());
+        ca1.alimentar();
+        ca1.emitirSom();
         
+        System.out.println("\n### GoldFish ###");
+        System.out.println(gf1.toString());
+        gf1.alimentar();
+        gf1.emitirSom();
+        gf1.locomover();
+        gf1.soltarBolhas();
     }
 }

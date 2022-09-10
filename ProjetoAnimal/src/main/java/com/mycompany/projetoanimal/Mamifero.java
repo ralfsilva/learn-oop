@@ -31,5 +31,5 @@ public class Mamifero extends Animal {
     public String toString() {
         return "\nPeso: " + this.getPeso() + "\nIdade: " + this.getIdade() + "\nMembros: " 
                 + this.getMembros() + "\ncor Pelo: " + this.getCorPelo();
-    }  
+    }
 }

@@ -6,5 +6,14 @@ public class Tartaruga extends Reptil {
     public void locomover() {
         System.out.println("Caminhando devagar");
     }
+    @Override
+    public void alimentar() {
+        System.out.println("Substâncias marinhas.");
+    }
+    
+    @Override
+    public void emitirSom() {
+        System.out.println("Não emite som");
+    }
     
 }
